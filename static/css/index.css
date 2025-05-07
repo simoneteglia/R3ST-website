@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Noto Sans", sans-serif;
 }
@@ -129,6 +134,34 @@ body {
   font-size: smaller;
 }
 
+/* MY STYLES */
+
 .abstract-image {
   mix-blend-mode: darken;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.flex-container > img {
+  max-width: 700px;
+  margin: auto auto;
+  height: auto;
+}
+
+.link {
+  color: #4286f4;
+  text-decoration: underline;
+}
+
+.wide {
+  width: 100vw;
+  margin: 0;
+}
+
+.italic {
+  font-style: italic;
 }
