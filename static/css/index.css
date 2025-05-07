@@ -143,13 +143,11 @@ body {
 .flex-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  align-items: center;
 }
 
 .flex-container > img {
   max-width: 700px;
-  margin: auto auto;
-  height: auto;
 }
 
 .link {
