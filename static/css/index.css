@@ -163,3 +163,9 @@ body {
 .italic {
   font-style: italic;
 }
+
+@media (max-width: 728px) {
+  .large-image {
+    width: 380px;
+  }
+}
